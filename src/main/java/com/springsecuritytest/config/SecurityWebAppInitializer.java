@@ -1,4 +1,6 @@
 package com.springsecuritytest.config;
 
-public class SecurityWebAppInitializer {
+import org.springframework.security.web.context.AbstractSecurityWebApplicationInitializer;
+
+public class SecurityWebAppInitializer extends AbstractSecurityWebApplicationInitializer {
 }
